@@ -7,10 +7,6 @@ This is my final project for the class *Deep Learning for Computer Vision* at Co
 The idea of this project is to apply Deep Learning to satellite images, in order to recognize biomes and land objects.
 I used [Keras](https://keras.io) to build the DL models.
 
-## Setup
-
-This project was made on Google Colab, to speed up the training of the NNs, but can be run without it. In that case, please ignore the first section of the notebook.
-
 ## Data description
 
 I used the UC Merced Land Use Dataset, that can be downloaded [here](http://weegee.vision.ucmerced.edu/datasets/landuse.html). I included it in the repository for conveniance. This dataset has 21 classes, which are combinations of biomes (forest, agricultural...) and land objects/constructions (airplane, tennis court...).
@@ -18,6 +14,10 @@ I used the UC Merced Land Use Dataset, that can be downloaded [here](http://weeg
 Then I expanded this dataset with four additional classes, for which I fetched images on Google Earth and online.
 
 These two dataset can be found in the `Dataset` folder.
+
+## Setup
+
+This project was made on Google Colab, to speed up the training of the NNs, but can be run without it. In that case, please ignore the first section of the notebook.
 
 ## Running the notebook
 
